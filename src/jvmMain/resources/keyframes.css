@@ -1,0 +1,31 @@
+@keyframes rotate {
+    0% {
+        stroke: orangered;
+        stroke-dasharray: 0 942;
+    }
+    33% {
+        stroke: goldenrod;
+    }
+    66% {
+        stroke: limegreen;
+    }
+    100% {
+        stroke: darkturquoise;
+        stroke-dasharray: 942 942;
+    }
+}
+
+@keyframes coloring {
+    0% {
+        fill: orangered;
+    }
+    33% {
+        fill: goldenrod;
+    }
+    66% {
+        fill: limegreen;
+    }
+    100% {
+        fill: darkturquoise;
+    }
+}
