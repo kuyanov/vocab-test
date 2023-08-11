@@ -71,7 +71,7 @@ kotlin {
 }
 
 application {
-    mainClass.set("kuyanov.testvocab.server.ServerKt")
+    mainClass.set("kuyanov.vocabtest.server.ServerKt")
 }
 
 tasks.named<Copy>("jvmProcessResources") {
